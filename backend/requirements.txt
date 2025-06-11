@@ -1,0 +1,6 @@
+# requirements.txt
+Flask==3.0.3
+gunicorn==22.0.0 # Renderにデプロイする時に必要になるWebサーバー
+google-generativeai==0.7.0 # Google AI Studio (Gemini) APIを使うためのライブラリ
+python-dotenv==1.0.1 # .envファイルから環境変数を読み込むためのライブラリ（開発用）
+flask-cors==4.0.0
