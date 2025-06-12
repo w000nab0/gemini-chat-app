@@ -3,7 +3,7 @@
 // バックエンドのURLだよ！
 // ローカルで開発中は http://localhost:5001
 // Renderにデプロイしたら、RenderのURLに置き換える必要があるから覚えておいてね！
-const BACKEND_URL = 'http://localhost:5001';
+const BACKEND_URL = 'https://gemini-chat-app-backend-nelz.onrender.com';
 
 const messageInput = document.getElementById('message-input');
 const sendButton = document.getElementById('send-button');
